@@ -1,0 +1,18 @@
+#include<stdlib.h>
+
+int main()
+{
+
+int grade;
+
+if(grade<60)
+  printf("FF",&grade)
+else if(grade>60)&&(grade>70)
+  printf("DD",&grade)
+else if(grade<70)&&(grade>90)
+  printf("AA",&grade)
+
+else
+  prinf("FAIL",&grade)
+
+}
